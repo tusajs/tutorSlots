@@ -1,0 +1,13 @@
+TutorSlots report
+Client offset: UTC+07:00
+Earliest start: 08:00
+Mon: 13:00-15:00, 16:00-21:00
+Tue: 13:00-18:00
+Wed: 13:00-16:00
+Thu: 13:00-18:00
+Fri: 15:00-20:00
+Sat: 13:00-14:00
+Sun: 13:00-15:00, 18:00-19:00
+Free: 43
+Busy: 62
+Load: 59%

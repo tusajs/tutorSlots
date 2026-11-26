@@ -1,0 +1,9 @@
+* text=auto
+# Reference reports are compared byte by byte: keep LF on every OS
+samples/** text eol=lf
+app-kotlin/src/test/resources/** text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+gradlew text eol=lf
+*.png binary
+*.jar binary

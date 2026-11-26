@@ -1,0 +1,22 @@
+# Build output
+build/
+out/
+.vs/
+CMakeSettings.json
+CMakeUserPresets.json
+app-kotlin/build/
+app-kotlin/.gradle/
+.idea/
+*.iml
+
+# Secrets and runtime data
+.env
+*.env
+users.json
+cache/
+
+# Real schedule downloaded with `fetch` (contains students' names)
+samples/live.tsv
+
+# Local schedule cache
+/app-kotlin/data/
