@@ -42,6 +42,10 @@ copy bot.env.example bot.env   # вписать токен бота, ключ Go
 .\gradlew.bat run
 ```
 
+## Демонстрация на защите
+
+[Сценарий доклада на 8 минут](docs/defense.md) содержит команды и порядок показа. Для автономной демонстрации соберите JAR задачей Gradle fatJar и запустите режим render на samples/snapshot.tsv для Москвы и Новосибирска. Обе картинки можно получить без ключей Google Sheets и Telegram. Для защиты пригодятся также [Pull Requests](https://github.com/tusajs/tutorSlots/pulls?q=is%3Apr) и [проверки CI](https://github.com/tusajs/tutorSlots/actions).
+
 ## Технологии
 
 C++17 · CMake · Google Test · Kotlin 2.0 · Gradle · JUnit 5 · kotlinx.serialization · Java2D · Google Sheets API v4 · Telegram Bot API · PlantUML · GitHub Actions
