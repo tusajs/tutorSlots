@@ -1,0 +1,54 @@
+@startuml sequence-slots
+title Команда /slots (упрощённо)
+autonumber
+
+actor Клиент
+participant TutorBot
+participant SlotsService
+participant UserSettingsStore
+participant ScheduleRepository
+participant SheetsClient
+participant "Google Sheets API" as API
+participant "core\n(SnapshotReader,\nIntervalBuilder)" as Core
+participant ZoneResolver
+participant SlotsRenderer
+
+Клиент -> TutorBot : /slots
+TutorBot -> UserSettingsStore : getZone(userId)
+
+alt пояс не выбран
+  UserSettingsStore --> TutorBot : null
+  TutorBot --> Клиент : «Выберите часовой пояс» + кнопки
+else пояс выбран
+  UserSettingsStore --> TutorBot : "Asia/Novosibirsk"
+  TutorBot -> SlotsService : freeSlotsFor(userId)
+  SlotsService -> ScheduleRepository : get()
+
+  alt кэш свежее 5 минут
+    ScheduleRepository --> SlotsService : Snapshot (из кэша)
+  else кэш устарел
+    ScheduleRepository -> SheetsClient : fetchSnapshot()
+    SheetsClient -> API : GET spreadsheets/{id}?includeGridData=true
+    alt таблица доступна
+      API --> SheetsClient : JSON (текст + цвет ячеек)
+      SheetsClient --> ScheduleRepository : TSV
+      ScheduleRepository -> ScheduleRepository : сохранить snapshot.tsv
+    else ошибка сети / API
+      API --> SheetsClient : ошибка
+      SheetsClient --> ScheduleRepository : исключение
+      ScheduleRepository -> ScheduleRepository : прочитать последний snapshot.tsv
+    end
+    ScheduleRepository --> SlotsService : Snapshot
+  end
+
+  SlotsService -> ZoneResolver : offsetMinutes(zone, now)
+  ZoneResolver --> SlotsService : 420
+  SlotsService -> Core : read(tsv) → slots
+  SlotsService -> Core : build(slots, 420, earliest = 08:00)
+  Core --> SlotsService : 7 × DayPlan
+  SlotsService --> TutorBot : SlotsView
+  TutorBot -> SlotsRenderer : render(view)
+  SlotsRenderer --> TutorBot : PNG
+  TutorBot --> Клиент : картинка + подпись с поясом
+end
+@enduml

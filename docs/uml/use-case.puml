@@ -1,0 +1,38 @@
+@startuml use-case
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor "Клиент" as Client
+actor "Репетитор" as Tutor
+actor "Google Sheets" as Sheets <<система>>
+
+rectangle "TutorSlots (Telegram-бот)" {
+  usecase "Выбрать часовой пояс" as UC1
+  usecase "Сменить часовой пояс" as UC2
+  usecase "Получить картинку\nсо свободными слотами" as UC3
+  usecase "Перевести слоты\nво время клиента" as UC4
+  usecase "Загрузить расписание" as UC5
+  usecase "Посмотреть загрузку недели" as UC6
+  usecase "Получить справку" as UC7
+}
+
+Client --> UC1
+Client --> UC2
+Client --> UC3
+Client --> UC7
+Tutor --> UC6
+Tutor --> UC3
+
+UC3 ..> UC4 : <<include>>
+UC3 ..> UC5 : <<include>>
+UC6 ..> UC5 : <<include>>
+UC3 ..> UC1 : <<extend>>\n(если пояс не выбран)
+UC5 --> Sheets
+
+note right of Tutor
+  Репетитор ведёт таблицу
+  в Google Sheets — бот
+  только читает её.
+end note
+@enduml

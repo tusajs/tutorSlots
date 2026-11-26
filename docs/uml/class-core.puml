@@ -1,0 +1,122 @@
+@startuml class-core
+title Ядро TutorSlots (одинаково в C++ и Kotlin)
+skinparam classAttributeIconSize 0
+hide empty members
+
+enum Status {
+  FREE
+  BUSY
+}
+
+enum ColorClass {
+  GREEN
+  RED
+  WHITE
+  OTHER
+}
+
+class Rgb {
+  +r : int
+  +g : int
+  +b : int
+  {static} +parseHex(s : string) : optional<Rgb>
+}
+
+class Slot {
+  +day : int
+  +startMinute : int
+  +status : Status
+  +text : string
+  +weekMinute() : int
+}
+
+class Diagnostic {
+  +line : int
+  +message : string
+}
+
+class ParseResult {
+  +slots : vector<Slot>
+  +diagnostics : vector<Diagnostic>
+}
+
+class SnapshotReader {
+  +read(in : istream) : ParseResult
+  -parseLine(line : string, n : int) : optional<Slot>
+}
+
+class CellClassifier {
+  {static} +classifyColor(c : Rgb) : ColorClass
+  {static} +classify(text : string, color : optional<Rgb>) : Status
+}
+
+class TimeShift {
+  {static} +SOURCE_OFFSET : int = 180
+  {static} +MIN_OFFSET : int = -720
+  {static} +MAX_OFFSET : int = 840
+  {static} +isValidOffset(m : int) : bool
+  {static} +toClient(weekMinute : int, offset : int) : int
+  {static} +parseClock(s : string) : optional<int>
+}
+
+class Interval {
+  +startMinute : int
+  +endMinute : int
+}
+
+class DayPlan {
+  +day : int
+  +intervals : vector<Interval>
+}
+
+class Stats {
+  +free : int
+  +busy : int
+  +loadPercent() : int
+}
+
+class IntervalBuilder {
+  {static} +build(slots : vector<Slot>, offset : int, earliestStart : int) : array<DayPlan, 7>
+}
+
+class StatsCalculator {
+  {static} +compute(slots : vector<Slot>) : Stats
+}
+
+class ReportWriter {
+  {static} +write(out : ostream, plan : array<DayPlan, 7>, stats : Stats, offset : int, earliestStart : int)
+  {static} +formatOffset(m : int) : string
+}
+
+SnapshotReader ..> CellClassifier : использует
+SnapshotReader ..> Rgb
+SnapshotReader --> ParseResult : создаёт
+ParseResult *-- "0..*" Slot
+ParseResult *-- "0..*" Diagnostic
+Slot --> Status
+CellClassifier ..> ColorClass
+CellClassifier ..> Rgb
+IntervalBuilder ..> TimeShift : использует
+IntervalBuilder ..> Slot
+IntervalBuilder --> DayPlan : создаёт
+DayPlan *-- "0..*" Interval
+StatsCalculator --> Stats : создаёт
+ReportWriter ..> DayPlan
+ReportWriter ..> Stats
+
+note right of Slot
+  day: 0 = пн … 6 = вс
+  startMinute: минуты от 00:00 по МСК
+  weekMinute = day × 1440 + startMinute
+end note
+
+note bottom of Interval
+  endMinute = 1440 означает
+  00:00 следующих суток
+end note
+
+note bottom of TimeShift
+  toClient(m, off) =
+  (m − 180 + off) mod 10080
+end note
+@enduml

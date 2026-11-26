@@ -1,0 +1,107 @@
+@startuml class-bot
+title Kotlin-приложение: бот и инфраструктура
+skinparam classAttributeIconSize 0
+hide empty members
+
+package "core (порт C++)" #EEF5FF {
+  class SnapshotReader
+  class IntervalBuilder
+  class StatsCalculator
+  class ReportWriter
+}
+
+package "data" {
+  class Config {
+    +botToken : String
+    +googleApiKey : String
+    +spreadsheetId : String
+    +sheetRange : String
+    +tutorTelegramId : Long
+    {static} +fromEnv() : Config
+  }
+
+  class SheetsClient {
+    +fetchSnapshot() : String
+    -toTsv(json : JsonObject) : String
+  }
+
+  class ScheduleRepository {
+    -cacheTtl : Duration = 5 min
+    -cached : Snapshot?
+    -snapshotFile : Path
+    +get() : Snapshot
+  }
+
+  class Snapshot {
+    +tsv : String
+    +loadedAt : Instant
+    +fromCache : Boolean
+  }
+
+  class UserSettingsStore {
+    -file : Path
+    +getZone(userId : Long) : String?
+    +setZone(userId : Long, zone : String)
+  }
+}
+
+package "domain" {
+  class ZoneResolver {
+    +parse(input : String) : ZoneChoice?
+    +offsetMinutes(zone : ZoneChoice, at : Instant) : Int
+    +presets() : List<ZoneChoice>
+  }
+
+  class ZoneChoice {
+    +id : String
+    +label : String
+  }
+
+  class SlotsService {
+    +freeSlotsFor(userId : Long) : SlotsView
+    +stats() : Stats
+  }
+
+  class SlotsView {
+    +plan : List<DayPlan>
+    +zoneLabel : String
+    +offset : Int
+    +loadedAt : Instant
+  }
+}
+
+package "presentation" {
+  class SlotsRenderer {
+    +render(view : SlotsView) : ByteArray
+  }
+
+  class TutorBot {
+    +start()
+    -onStart(chat)
+    -onSlots(chat)
+    -onTz(chat)
+    -onStats(chat)
+    -onHelp(chat)
+    -onZoneButton(callback)
+    -onText(message)
+  }
+}
+
+TutorBot --> SlotsService
+TutorBot --> SlotsRenderer
+TutorBot --> UserSettingsStore
+TutorBot --> ZoneResolver
+TutorBot ..> Config
+SlotsService --> ScheduleRepository
+SlotsService --> UserSettingsStore
+SlotsService --> ZoneResolver
+SlotsService ..> SnapshotReader
+SlotsService ..> IntervalBuilder
+SlotsService ..> StatsCalculator
+SlotsService --> SlotsView : создаёт
+ScheduleRepository --> SheetsClient
+ScheduleRepository --> Snapshot
+SheetsClient ..> Config
+ZoneResolver --> ZoneChoice
+SlotsRenderer ..> SlotsView
+@enduml

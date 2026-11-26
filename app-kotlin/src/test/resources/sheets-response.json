@@ -1,0 +1,1649 @@
+{
+ "sheets": [
+  {
+   "data": [
+    {
+     "rowData": [
+      {
+       "values": [
+        {},
+        {
+         "formattedValue": "понедельник",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "вторник",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "среда",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "четверг",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "пятница",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "суббота",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        },
+        {
+         "formattedValue": "воскресенье",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1,
+           "green": 1,
+           "blue": 1
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "9:00:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "10:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "11:00"
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "12:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "13:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "14:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {}
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "15:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "16:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "17:00"
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "18:00"
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "19:00"
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "20:00"
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "21:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "22:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {
+       "values": [
+        {
+         "formattedValue": "23:00"
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        },
+        {
+         "formattedValue": "Занято",
+         "effectiveFormat": {
+          "backgroundColor": {
+           "red": 1.0,
+           "green": 1.0,
+           "blue": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "red": 1.0,
+            "green": 1.0,
+            "blue": 1.0
+           }
+          }
+         }
+        },
+        {
+         "effectiveFormat": {
+          "backgroundColor": {
+           "green": 1.0
+          },
+          "backgroundColorStyle": {
+           "rgbColor": {
+            "green": 1.0
+           }
+          }
+         }
+        }
+       ]
+      },
+      {},
+      {
+       "values": [
+        {
+         "formattedValue": "итого"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
